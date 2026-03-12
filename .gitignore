@@ -1,7 +1,41 @@
+# Node dependencies
 node_modules/
+**/node_modules/
+
+# Next.js
 .next/
+frontend/.next/
+
+# Environment variables
 .env
+.env.*
+
+# Build output
 dist/
 build/
+
+# Coverage
 coverage/
+
+# Logs
+*.log
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Kubernetes secrets
+k8s/secrets*.yaml
+
+# Docker
+*.pid
+*.seed
+
+# IDE
+.vscode/
+.idea/
